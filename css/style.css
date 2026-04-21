@@ -1,0 +1,136 @@
+
+/* this is a css reset that makes sure the browser won't add any unexpected margins or padding to your page */
+body, html{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* call an element from your html and style it here! */
+/* for example... */
+
+p{
+  font-size: 30px;
+  color: black;
+}
+
+ul{
+font-size: 30px;
+  color: black
+}
+
+ol{
+  font-size: 30px;
+}
+
+h1,h2{
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  font-size: 80px;
+  color:magenta
+}
+
+h2{
+  font-size: 60px;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.intro{
+  padding: 10px;
+}
+
+.whole_text{
+  margin:50px;
+}
+
+.materials{
+  padding: 10px;
+}
+
+.instructions{
+  padding: 10px;
+}
+
+img{
+  width:100%;
+  position:sticky;
+  bottom: 0;
+  height: 12.5%;
+}
+
+.instructions_header{
+  color:blue;
+}
+
+.tools{
+  color: orangered;
+}
+
+.number{
+  color: orange
+}
+
+.time{
+  color: green;
+}
+
+
+@media (max-width: 768px) {
+p{
+    font-size: 30px;
+  }
+ h1{
+  font-size: 80px;
+  color:magenta
+ }
+
+ h2{
+  font-size: 70px;
+ }
+ ul{
+  font-size: 30px;
+  color: black
+ }
+
+ ol{
+  font-size: 30px;
+ }
+  
+}
+@media (max-width: 425px) {
+  /* your tablet styles here! */
+  iframe {display: none;
+  }
+  p{
+    font-size: 10px;
+  }
+ h1{
+  font-size: 30px;
+  color:magenta
+ }
+
+ h2{
+  font-size: 20px;
+ }
+ ul{
+  font-size: 10px;
+  color: black
+ }
+
+ ol{
+  font-size: 10px;
+ }
+}
